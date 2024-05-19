@@ -39,8 +39,9 @@ class FileStorage:
         (path: __file_path)
         """
         with open(self.__file_path, 'w+') as f:
-            json.dump({k: v.to_dict() for k, v in self.__objects.items()
-                }, f)
+            json.dump(
+                {k: v.to_dict() for k, v in self.__objects.items()}, f
+            )  # Corrected line
 
     def reload(self):
         """
