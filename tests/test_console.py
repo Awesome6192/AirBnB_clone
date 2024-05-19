@@ -26,20 +26,14 @@ class TestBaseModel(unittest.TestCase):
 
     def test_basic(self):
         """
-        Tests basic imputs for the BaseModel class
+        Tests basic inputs for the BaseModel class
         """
         my_model = BaseModel()
         my_model.name = "ALX"
         my_model.number = 89
         self.assertEqual([my_model.name, my_model.number],
-                ["ALX", 89])
+                         ["ALX", 89])
 
-    def test_datetime(self):
-        """
-        Tests for correct datetime format
-        """
-        pass
-                                    
     def test_datetime(self):
         """
         Tests for correct datetime format
