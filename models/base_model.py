@@ -3,6 +3,7 @@
 import uuid
 from datetime import datetime
 
+
 class BaseModel:
     """Defines all common attributes/methods for other classes."""
 
@@ -14,7 +15,8 @@ class BaseModel:
 
     def __str__(self):
         """Return string representation of BaseModel."""
-        return "[{}] ({}) {}".format(self.__class__.__name__, self.id, self.__dict__)
+        return "[{}] ({}) {}".format(
+            self.__class__.__name__, self.id, self.__dict__)
 
     def save(self):
         """Update updated_at attribute with current datetime."""
@@ -28,6 +30,7 @@ class BaseModel:
         model_dict['updated_at'] = self.updated_at.isoformat()
         return model_dict
 
+
 if __name__ == "__main__":
     my_model = BaseModel()
     my_model.name = "My First Model"
@@ -39,5 +42,5 @@ if __name__ == "__main__":
     print(my_model_json)
     print("JSON of my_model:")
     for key in my_model_json.keys():
-        print("\t{}: ({}) - {}".format(key, type(my_model_json[key]), my_model_json[key]))
-
+        print("\t{}: ({}) - {}".format(
+            key, type(my_model_json[key]), my_model_json[key]))
