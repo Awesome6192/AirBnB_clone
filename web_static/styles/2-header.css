@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header {
     color: #FF0000;
     height: 70px;
@@ -5,3 +6,10 @@ header {
     background-color: #FF0000;
 }
 
+=======
+header div {
+	background-color: #FF0000;
+	height: 70px;
+	width: 100%;
+}
+>>>>>>> 2cb7348dc024a0e7bfe8bd1ed50ba0d1ecff6266

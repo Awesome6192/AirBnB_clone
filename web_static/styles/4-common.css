@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: 0;
     padding: 0;
@@ -11,3 +12,28 @@ body {
     margin: 30px auto;
 }
 
+=======
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100vh;
+}
+
+body {
+	color : #484848;
+	font-size: 14px;
+	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	position: relative;
+	height:100%;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 30px auto;
+	height: 250%;
+}
+>>>>>>> 2cb7348dc024a0e7bfe8bd1ed50ba0d1ecff6266

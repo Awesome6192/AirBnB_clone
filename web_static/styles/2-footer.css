@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header {
     color: #FF0000;
     height: 70px;
@@ -5,3 +6,14 @@ header {
     background-color: #FF0000;
 }
 
+=======
+footer div {
+	background-color: #00FF00;
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	line-height: 60px;
+}
+>>>>>>> 2cb7348dc024a0e7bfe8bd1ed50ba0d1ecff6266
